@@ -1,3 +1,30 @@
-# only track the codes
-!*.py
-!*.ipynb
+# My credentials
+*.ini
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.pyproj
+*.user
+*.pyc
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+*.log
