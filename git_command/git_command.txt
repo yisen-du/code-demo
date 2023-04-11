@@ -1,0 +1,20 @@
+# This file documented some useful commands of git
+
+--------------------------------------------------------------------
+# after updating .gitignore, run the following commands to ignore 
+# the files that should be ignored
+
+# step 1: remove all the files in the remote repository
+git rm -r --cached . 
+
+# step 2: upload the updated .gitignore
+git add .gitignore
+git commit -m "update gitignore"
+git push origin main
+
+# step 3: add and push all the local files
+git add *
+git commit -m "upload files based on the updated gitignore"
+git push origin main
+--------------------------------------------------------------------
+
